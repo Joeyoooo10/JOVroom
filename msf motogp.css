@@ -1,0 +1,168 @@
+.site-header {
+  
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo {
+  height: 100px; /* adjust size as needed */
+  width: auto;
+
+}body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #000000;
+  color: white;
+  padding: 40px;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url('poce.jpg') no-repeat center center/cover;
+  filter: blur(2px);
+  z-index: -1;
+  filter: brightness(0.1);
+}
+
+
+
+h2, h3 {
+  text-align: center;
+}
+
+.championship {
+  margin-bottom: 60px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.content img {
+  max-width: 90%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  max-width: 800px;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.gallery-title {
+  font-size: 1.8rem;
+  text-align: center;
+  color: white;
+  margin-top: 40px; /* Add spacing above the title */
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.gallery img {
+  width: 180px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  filter: grayscale(100%);
+  transition: transform 0.4s ease, filter 0.4s ease;
+  cursor: pointer;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+  z-index: 1;
+}
+
+.gtwca-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px 50px;
+  flex-wrap: wrap;
+}
+
+.gtwca-container {
+  display: flex;
+  align-items: center; /* centers the text vertically with the image */
+  justify-content: center;
+  gap: 40px;
+  padding: 30px 50px;
+  flex-wrap: wrap;
+}
+
+.gtwca-image {
+  width: 420px;
+  border-radius: 10px;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.gtwca-text {
+  max-width: 600px;
+  font-size: 1.15rem;
+  color: white;
+  line-height: 1.8;
+  padding-top: 5px; /* pushes text down to align better with car */
+}
+
+.gtwca-text .highlight {
+  color: #e60000;
+  font-weight: bold;
+}
+.gtwca-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px 50px;
+  flex-wrap: wrap;
+}
+
+.aslm-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px 50px;
+  flex-wrap: wrap;
+}
+
+.aslm-image {
+  width: 420px;
+  border-radius: 10px;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.aslm-text {
+  max-width: 600px;
+  font-size: 1.15rem;
+  color: white;
+  line-height: 1.8;
+  padding-top: 50px;
+}
+
+.aslm-text .highlight {
+  color: #e60000;
+  font-weight: bold;
+}

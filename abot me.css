@@ -1,0 +1,51 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Logo top-left */
+.site-header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.logo {
+  height: 100px;
+}
+
+/* Centered profile and info */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+/* Circular image */
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 30px;
+}
+
+/* Contact text */
+.contact-info p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
